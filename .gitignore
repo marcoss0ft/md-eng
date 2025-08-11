@@ -1,0 +1,12 @@
+# Ignorar ambientes virtuais Python
+venv/
+
+# Outros padrões comuns
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.env
+*.egg-info/
