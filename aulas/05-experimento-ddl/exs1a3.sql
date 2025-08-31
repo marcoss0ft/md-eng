@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS coemu;
+CREATE DATABASE coemu;
+USE coemu;
+DROP TABLE IF EXISTS usuario;
+
+CREATE TABLE IF NOT EXISTS usuario (
+    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    nickname VARCHAR(30) NOT NULL,
+    data_cadastro DATETIME NOT NULL,
+    ativo TINYINT NOT NULL
+);
