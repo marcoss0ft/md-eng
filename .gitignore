@@ -10,3 +10,6 @@ __pycache__/
 .env.*
 *.env
 *.egg-info/
+projeto\spark\reviews.pickle
+train.csv
+test.csv
